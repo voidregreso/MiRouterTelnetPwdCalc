@@ -1,0 +1,12 @@
+[package]
+name = "MiRouterTelnetPwdCalc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+md5 = "0.7.0"
+eframe = "0.20.0"
+egui = "0.20.0"
+
+[target.'cfg(windows)'.dependencies]
+windows = "0.26.0"
